@@ -30,3 +30,12 @@ const questions = [
         default: 'SVG',
     },
 ];
+
+inquirer.prompt(questions).then(answers => {
+    let shape;
+    if (answers.shape === 'Square') {
+        shape = new Square()
+    } else if (answers.shape === 'Triangle') {
+
+    }
+})
