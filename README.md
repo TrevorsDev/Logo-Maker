@@ -31,4 +31,5 @@ I was able to create this application with the help of the tutors offered to me 
 
 
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at undefined. If you want to see more of my work, please visit my [GitHub](https://github.com/TrevorsDev)
+If you have any questions about the repo, open an issue or contact me directly at undefined. If you want to see more of my work, please visit my [GitHub](https://github.com/TrevorsDev). 
+You can view this project's code on my GitHub project directory [here](https://github.com/TrevorsDev/Logo-Maker).
