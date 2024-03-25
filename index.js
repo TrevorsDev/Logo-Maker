@@ -28,6 +28,7 @@ const questions = [
         type: 'input',
         name: 'text',
         message: 'Add text to your logo!',
+        validate: (text) => text.length <= 3 || 'Text must 3 characters or less',
         default: 'SVG',
     },
 ];
@@ -50,5 +51,10 @@ inquirer.prompt(questions).then(answers => {
     shape.setColor(answers.shapeColor);
 
     newSvg.setShape(shape);
+
+    fs.writeFile('output.svg', newSvg.render(), (err) => {
+        if (err) throw err;
+        console.log('Your logo has been created!');
+    })
 })
 
